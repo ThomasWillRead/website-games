@@ -131,10 +131,10 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5vh;
+    font-size: 5vw;
     text-align: center;
     line-height: 1.2;       /* prevent text jumps */
-    padding: 2vh;
+    padding: 2vw;
     font-weight: bold;
 
     box-shadow: 0 0px 16px rgba(0, 0, 0, 0.5);
