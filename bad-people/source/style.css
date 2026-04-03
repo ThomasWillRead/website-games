@@ -131,7 +131,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10vw;
+    font-size: min(6vh, 10vw);
     text-align: center;
     line-height: 1.2;       /* prevent text jumps */
     padding: 2vw;
@@ -151,6 +151,7 @@ header img {
     padding-right: 3vh;
     position: absolute;
     top: 80vh;
+    font-size: 1vw;
 }
 
 #guide h1 {
