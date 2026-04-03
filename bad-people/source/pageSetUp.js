@@ -80,7 +80,7 @@ function newCard() {
 
         // 4️⃣ reset the old front card behind the new front card
         backCard.style.transition = "none";
-        backCard.style.left = "5.6vh";
+        backCard.style.left = "6vw";
         backCard.style.transform = "scale(0.9)";
         backCard.style.opacity = "0.7";
         backCard.style.zIndex = 1;

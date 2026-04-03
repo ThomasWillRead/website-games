@@ -12,7 +12,6 @@ body {
     left: 0;
     right: 0;
 
-    justify-content: center;
 }
 
 
@@ -122,8 +121,8 @@ header img {
 
     position: fixed;
     top: 25vh;
-    left: 9vw;
-    width: 78vw;
+    left: 6vw;
+    width: 84vw;
     bottom: 5vh;
 
        /* prevent shrinking */
