@@ -1,10 +1,10 @@
-fetch("/bad-people/source/head.html")
+fetch("source/head.html")
     .then(res => res.text())
     .then(data => {
         document.getElementById("head").innerHTML += data;
     });
 
-fetch("/bad-people/source/header.html")
+fetch("source/header.html")
     .then(res => res.text())
     .then(data => {
         document.getElementById("header").innerHTML += data;
@@ -32,7 +32,7 @@ function navButton() {
 
 let questions = [];
 
-fetch("/bad-people/source/BadPeopleQuestions.csv")
+fetch("source/BadPeopleQuestions.csv")
 .then(res => res.text())
 .then(data => {
     questions = data

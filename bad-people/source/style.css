@@ -11,6 +11,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+
+    justify-content: center;
 }
 
 
@@ -119,10 +121,9 @@ header img {
     color: #000000;
 
     position: fixed;
-
     top: 25vh;
-    left: 10vw;
-    width: 76vw;
+    left: 9vw;
+    width: 78vw;
     bottom: 5vh;
 
        /* prevent shrinking */
