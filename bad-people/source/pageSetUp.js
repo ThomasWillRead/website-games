@@ -16,12 +16,12 @@ function navButton() {
     const navBar = document.getElementById("nav-bar")
     const navButton = document.getElementById("nav-button")
     const overlay = document.getElementById("overlay")
-    if (navBar.style.width == "54.1vh") {
+    if (navBar.style.width == "100vw") {
         navBar.style.width = "0px";
         navButton.textContent = "☰";
         overlay.style.opacity = 0
     } else {
-        navBar.style.width = "54.1vh";
+        navBar.style.width = "100vw";
         navButton.textContent = "✖"
         overlay.style.opacity = 1
     }           
