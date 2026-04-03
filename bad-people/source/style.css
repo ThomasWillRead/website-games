@@ -119,10 +119,10 @@ header img {
     background-color: #ffffff;
     color: #000000;
 
-    position: fixed;
-    top: 25vh;
+    position: absolute;
+    top: 0;
     left: 6vw;
-    width: 84vw;
+    width: 78vw;
     bottom: 5vh;
 
        /* prevent shrinking */
@@ -131,7 +131,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5vw;
+    font-size: 10vw;
     text-align: center;
     line-height: 1.2;       /* prevent text jumps */
     padding: 2vw;
@@ -149,7 +149,8 @@ header img {
 #guide {
     padding-left: 3vh;
     padding-right: 3vh;
-    padding-top: 1vh;
+    position: absolute;
+    top: 80vh;
 }
 
 #guide h1 {
